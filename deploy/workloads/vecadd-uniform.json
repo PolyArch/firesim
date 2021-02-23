@@ -1,0 +1,7 @@
+{
+  "benchmark_name"            : "vecadd-uniform",
+  "common_bootbinary"         : "vecadd-linux-bin",
+  "common_rootfs"             : "vecadd-linux.img",
+  "common_outputs"            : ["/etc/os-release"],
+  "common_simulation_outputs" : ["uartlog", "memory_stats*.csv"]
+}
